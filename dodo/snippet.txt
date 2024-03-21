@@ -1,0 +1,14 @@
+<model-viewer src="dodo_model.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-2" data-position="-0.0661393476355266m 0.5543083720047499m 0.3895989183031089m" data-normal="-0.7856223156698093m -0.06742382301301196m 0.6150216298732238m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">脖子</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
